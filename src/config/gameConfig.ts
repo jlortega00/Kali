@@ -257,6 +257,32 @@ export const MINIGAMES: { id: MinigameId; name: string; durationSeconds: number 
 ]
 
 // ---------------------------------------------------------------------------
+// Tienda
+// ---------------------------------------------------------------------------
+
+export type ShopItemKind = 'food' | 'toy' | 'outfit' | 'decoration'
+
+export interface ShopItem {
+  id: string
+  name: string
+  kind: ShopItemKind
+  price: number
+  icon: string
+}
+
+/** Objetos básicos comprables con la moneda blanda. Sin pay-to-win: todo se puede ganar jugando. */
+export const SHOP_ITEMS: ShopItem[] = [
+  { id: 'snack-onigiri', name: 'Onigiri extra', kind: 'food', price: 8, icon: '🍙' },
+  { id: 'snack-berry', name: 'Fresas frescas', kind: 'food', price: 6, icon: '🍓' },
+  { id: 'toy-ball', name: 'Pelota de trapo', kind: 'toy', price: 12, icon: '🧶' },
+  { id: 'toy-kite', name: 'Cometa', kind: 'toy', price: 15, icon: '🪁' },
+  { id: 'outfit-scarf', name: 'Bufanda', kind: 'outfit', price: 20, icon: '🧣' },
+  { id: 'outfit-hat', name: 'Gorrito', kind: 'outfit', price: 18, icon: '🎩' },
+  { id: 'deco-lamp', name: 'Lamparita', kind: 'decoration', price: 25, icon: '🏮' },
+  { id: 'deco-plant', name: 'Planta', kind: 'decoration', price: 22, icon: '🪴' },
+]
+
+// ---------------------------------------------------------------------------
 // Edad mínima (RGPD / consentimiento)
 // ---------------------------------------------------------------------------
 
