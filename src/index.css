@@ -1,0 +1,61 @@
+@import 'tailwindcss';
+@import '@fontsource-variable/baloo-2' layer(base);
+
+@theme {
+  --font-sans: 'Baloo 2 Variable', system-ui, sans-serif;
+
+  /* Paleta pastel base de la app (no confundir con las paletas propias de cada especie, ver gameConfig.ts) */
+  --color-cream: #fff8f0;
+  --color-cream-dark: #ffefe0;
+  --color-blush: #ffd6e0;
+  --color-blush-dark: #ffb6c8;
+  --color-sky: #cdeafe;
+  --color-sky-dark: #a6dcfb;
+  --color-mint: #d6f5e3;
+  --color-mint-dark: #b0e8c9;
+  --color-lilac: #e6d9fb;
+  --color-lilac-dark: #cdb4f5;
+  --color-butter: #fff3c4;
+  --color-butter-dark: #ffe38a;
+  --color-ink: #5b4a4a;
+  --color-ink-soft: #8a7676;
+
+  --radius-blob: 2rem;
+}
+
+@layer base {
+  html {
+    color-scheme: light;
+  }
+
+  body {
+    margin: 0;
+    background: var(--color-cream);
+    color: var(--color-ink);
+    -webkit-font-smoothing: antialiased;
+  }
+
+  #root {
+    min-height: 100svh;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    *,
+    *::before,
+    *::after {
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.01ms !important;
+      scroll-behavior: auto !important;
+    }
+  }
+}
+
+@layer utilities {
+  .scrollbar-none::-webkit-scrollbar {
+    display: none;
+  }
+  .scrollbar-none {
+    scrollbar-width: none;
+  }
+}

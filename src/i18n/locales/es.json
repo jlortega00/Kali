@@ -1,0 +1,51 @@
+{
+  "app": {
+    "name": "Nidito",
+    "tagline": "Cuidad juntos a vuestra mascota"
+  },
+  "nav": {
+    "home": "Hogar",
+    "minigames": "Minijuegos",
+    "shop": "Tienda",
+    "friends": "Amigos",
+    "profile": "Perfil"
+  },
+  "design": {
+    "title": "Hoja de personajes",
+    "subtitle": "Fase 0 · Diseño de mascotas de {{appName}}",
+    "speciesSheet": "Especies y etapas",
+    "expressions": "Expresiones",
+    "egg": "Huevo y eclosión",
+    "palette": "Paleta de color",
+    "homeMock": "Maqueta de la pantalla principal"
+  },
+  "stages": {
+    "baby": "Bebé",
+    "child": "Niño",
+    "teen": "Adolescente",
+    "adult": "Adulto"
+  },
+  "rarity": {
+    "common": "Común",
+    "rare": "Raro",
+    "legendary": "Legendario"
+  },
+  "expressions": {
+    "happy": "Feliz",
+    "neutral": "Neutral",
+    "hungry": "Hambrienta",
+    "sleepy": "Cansada",
+    "sad": "Triste",
+    "eating": "Comiendo",
+    "loved": "Recibiendo cariño",
+    "playing": "Jugando",
+    "celebrating": "Celebrando"
+  },
+  "needs": {
+    "hunger": "Hambre",
+    "fun": "Diversión",
+    "hygiene": "Limpieza",
+    "energy": "Energía",
+    "affection": "Cariño"
+  }
+}

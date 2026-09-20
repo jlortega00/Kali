@@ -1,0 +1,51 @@
+{
+  "app": {
+    "name": "Nidito",
+    "tagline": "Raise your pet together"
+  },
+  "nav": {
+    "home": "Home",
+    "minigames": "Minigames",
+    "shop": "Shop",
+    "friends": "Friends",
+    "profile": "Profile"
+  },
+  "design": {
+    "title": "Character sheet",
+    "subtitle": "Phase 0 · {{appName}} pet design",
+    "speciesSheet": "Species and stages",
+    "expressions": "Expressions",
+    "egg": "Egg and hatching",
+    "palette": "Color palette",
+    "homeMock": "Home screen mockup"
+  },
+  "stages": {
+    "baby": "Baby",
+    "child": "Child",
+    "teen": "Teen",
+    "adult": "Adult"
+  },
+  "rarity": {
+    "common": "Common",
+    "rare": "Rare",
+    "legendary": "Legendary"
+  },
+  "expressions": {
+    "happy": "Happy",
+    "neutral": "Neutral",
+    "hungry": "Hungry",
+    "sleepy": "Sleepy",
+    "sad": "Sad",
+    "eating": "Eating",
+    "loved": "Being petted",
+    "playing": "Playing",
+    "celebrating": "Celebrating"
+  },
+  "needs": {
+    "hunger": "Hunger",
+    "fun": "Fun",
+    "hygiene": "Hygiene",
+    "energy": "Energy",
+    "affection": "Affection"
+  }
+}
